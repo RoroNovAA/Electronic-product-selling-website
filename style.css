@@ -244,5 +244,51 @@ img[alt = shoppingBag]{
     margin-top: 16px;
 }
 
+/* CHOOSE YOUR STYLES SECTION */
 
+.choose-your-style-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.diff-style-pic-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin:  0 33px;
+}
+
+.diff-prod-container div {
+    /* background-color: rgb(24, 26, 27); */
+    width: 150px;
+    display: flex;
+    background-color: red; 
+    border-radius: 12px;
+}
+
+.pic-style {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    top: -45px;
+    left: 30px;
+}
+
+.style-details {
+    padding: 0 15px 15px 15px;
+}
+
+.style-details p {
+    margin-right: auto;
+}
+
+.container {
+    margin: 0 350px;
+}
+
+.overall-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
