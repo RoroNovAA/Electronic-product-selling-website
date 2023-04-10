@@ -290,5 +290,66 @@ img[alt = shoppingBag]{
 .overall-container {
     display: flex;
     justify-content: center;
-    margin: 100px auto;
+    margin: 100px 400px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    padding-bottom: 100px;
+}
+
+
+footer div ul li {
+    color: rgba(195, 198, 201, 0.63);
+    line-height: 25px;
+    list-style-type: none;
+}
+
+.headphones {
+    margin-top: 16px;
+}
+
+.product-help {
+    margin-top: 16px;
+}
+
+
+footer div ul li strong {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials-footer {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.sub-button-container input {
+    position: absolute;
+    padding: 15px 70px 15px 8px;
+    border-radius: 6px;
+    background-color:#2e2e30;
+    border: none;
+}
+
+.sub-button-container button {
+    position: relative;
+    padding: 10px 23px;
+    border-radius: 9px;
+    gap: 20px;
+    color: #fff;
+    border: none;
+    background-color: rgb(24, 26, 27);
+    display: flex;
+    margin: 5px 90px;
 }
